@@ -1,0 +1,20 @@
+extends layouts/default
+include helpers/mixins
+
+block variables
+	- const title = "Bergauf - Строительные технологии"
+
+block styles
+	link(rel="stylesheet" href="styles/catalog-carousel.css")
+	link(rel="stylesheet" href="styles/tab-menu.css")
+	link(rel="stylesheet" href="styles/academy.css")
+	link(rel="stylesheet" href="styles/last-news.css")
+
+block content
+	h1 Hello world!
+
+block scripts
+	script(src="js/catalog-carousel.js")
+	script(src="js/tab-menu.js")
+	script(src="js/academy.js")
+	script(src="js/last-news.js")
